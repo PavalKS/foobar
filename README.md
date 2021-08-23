@@ -1,6 +1,4 @@
-# Level 1:
-Minion Work Assignments
-=======================
+# Level 1: Minion Work Assignments
 
 Commander Lambda's minions are upset! They're given the worst jobs on the whole space station, and some of them are starting to complain that even those worst jobs are being allocated unfairly. If you can fix this problem, it'll prove your chops to Commander Lambda so you can get promoted!
 
@@ -8,9 +6,7 @@ Minions' tasks are assigned by putting their ID numbers into a list, one time fo
 
 Write a function called solution(data, n) that takes in a list of less than 100 integers and a number n, and returns that same list but with all of the numbers that occur more than n times removed entirely. The returned list should retain the same ordering as the original list - you don't want to mix up those carefully-planned shift rotations! For instance, if data was [5, 10, 15, 10, 7] and n was 1, solution(data, n) would return the list [5, 15, 7] because 10 occurs twice, and thus was removed from the list entirely.
 
-# Level 2.1
-Numbers Station Coded Messages
-==============================
+# Level 2.1: Numbers Station Coded Messages
 
 When you went undercover in Commander Lambda's organization, you set up a coded messaging system with Bunny Headquarters to allow them to send you important mission updates. Now that you're here and promoted to Henchman, you need to make sure you can receive those messages -- but since you need to sneak them past Commander Lambda's spies, it won't be easy!
 
@@ -30,17 +26,13 @@ To help you identify the coded broadcasts, Bunny HQ has agreed to the following 
 
 Remember, to throw off Lambda's spies, Bunny HQ might include more than one contiguous sublist of a number broadcast that can be summed up to the key. You know that the message will always be hidden in the first sublist that sums up to the key, so solution(l, t) should only return that sublist.
 
-# Level 2.2
-Please Pass the Coded Messages
-==============================
+# Level 2.2: Please Pass the Coded Messages
 
 You need to pass a message to the bunny workers, but to avoid detection, the code you agreed to use is... obscure, to say the least. The bunnies are given food on standard-issue plates that are stamped with the numbers 0-9 for easier sorting, and you need to combine sets of plates to create the numbers in the code. The signal that a number is part of the code is that it is divisible by 3. You can do smaller numbers like 15 and 45 easily, but bigger numbers like 144 and 414 are a little trickier. Write a program to help yourself quickly create large numbers for use in the code, given a limited number of plates to work with.
 
 You have L, a list containing some digits (0 to 9). Write a function solution(L) which finds the largest number that can be made from some or all of these digits and is divisible by 3. If it is not possible to make such a number, return 0 as the solution. L will contain anywhere from 1 to 9 digits.  The same digit may appear multiple times in the list, but each element in the list may only be used once.
 
-# Level 3.1
-Prepare the Bunnies' Escape
-===========================
+# Level 3.1: Prepare the Bunnies' Escape
 
 You're awfully close to destroying the LAMBCHOP doomsday device and freeing Commander Lambda's bunny workers, 
 but once they're free of the work duties the bunnies are going to need to escape Lambda's space station via the escape 
@@ -61,9 +53,7 @@ you pass through, counting both the entrance and exit nodes. The starting and en
 The map will always be solvable, though you may or may not need to remove a wall. The height and width of the map can be from 2 to 20. 
 Moves can only be made in cardinal directions; no diagonal moves are allowed.
 
-# Level 3.2
-The Grandest Staircase Of Them All
-==================================
+# Level 3.2: The Grandest Staircase Of Them All
 
 With the LAMBCHOP doomsday device finished, Commander Lambda is preparing to debut on the galactic stage -- but in order to make a grand entrance, Lambda needs a grand staircase! As the Commander's personal assistant, you've been tasked with figuring out how to build the best staircase EVER. 
 
@@ -73,9 +63,7 @@ Each type of staircase should consist of 2 or more steps.  No two steps are allo
 
 Write a function called solution(n) that takes a positive integer n and returns the number of different staircases that can be built from exactly n bricks. n will always be at least 3 (so you can have a staircase at all), but no more than 200, because Commander Lambda's not made of money!
 
-# Level 3.3
-Find the Access Codes
-=====================
+# Level 3.3: Find the Access Codes
 
 In order to destroy Commander Lambda's LAMBCHOP doomsday device, you'll need access to it. But the only door leading to the LAMBCHOP chamber is secured with a unique lock system whose number of passcodes changes daily. Commander Lambda gets a report every day that includes the locks' access codes, but only the Commander knows how to figure out which of several lists contains the access codes. You need to find a way to determine which list contains the access codes once you're ready to go in. 
 
@@ -85,9 +73,7 @@ Write a function solution(l) that takes a list of positive integers l and counts
 
 For example, [1, 2, 3, 4, 5, 6] has the triples: [1, 2, 4], [1, 2, 6], [1, 3, 6], making the solution 3 total.
 
-# Level 4.1
-Bringing a Gun to a Trainer Fight
-=================================
+# Level 4.1: Bringing a Gun to a Trainer Fight
 
 Uh-oh -- you've been cornered by one of Commander Lambdas elite bunny trainers! Fortunately,
  you grabbed a beam weapon from an abandoned storeroom while you were running through the station, 
@@ -116,9 +102,7 @@ bearing [-3, -2] bounces off the left wall and then the bottom wall before hitti
 shot distance of sqrt(13), and the shot at bearing [1, 2] bounces off just the top wall before hitting the elite
  trainer with a total shot distance of sqrt(5).
 
-# Level 4.2
-Distract the Trainers
-=====================
+# Level 4.2: Distract the Trainers
 
 The time for the mass escape has come, and you need to distract the bunny trainers so that the workers can make it out! Unfortunately for you, they're watching the bunnies closely. Fortunately, this means they haven't realized yet that the space station is about to explode due to the destruction of the LAMBCHOP doomsday device. Also fortunately, all that time you spent working as first a minion and then a henchman means that you know the trainers are fond of bananas. And gambling. And thumb wrestling.
 
@@ -136,9 +120,7 @@ Write a function solution(banana_list) which, given a list of positive integers 
 
 The number of trainers will be at least 1 and not more than 100, and the number of bananas each trainer starts with will be a positive integer no more than 1073741823 (i.e. 2^30 -1). Some of them stockpile a LOT of bananas.
 
-# Level 5
-Dodge the Lasers!
-=================
+# Level 5: Dodge the Lasers!
 
 Oh no! You've managed to escape Commander Lambda's collapsing space station in an escape pod with the rescued bunny workers - but Commander Lambda isnt about to let you get away that easily. Lambda sent an elite fighter pilot squadron after you -- and they've opened fire!
 
